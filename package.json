@@ -6,7 +6,7 @@
     "build": "NODE_ENV=production webpack --config webpack.prod.config.ts"
   },
   "dependencies": {
-    "@component-controls/react-router-integration": "^2.11.1",
+    "@component-controls/react-router-integration": "^2.11.2",
     "react": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-dom": "^17.0.1"
