@@ -1,21 +1,23 @@
-import path from "path";
-import webpack from "webpack";
-import HtmlWebpackPlugin from "html-webpack-plugin";
-import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
-import ESLintPlugin from "eslint-webpack-plugin";
-import { CleanWebpackPlugin } from "clean-webpack-plugin";
-import { withComponentControls } from "@component-controls/react-router-integration/webpack-build";
+import path from 'path';
+import webpack from 'webpack';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import { CleanWebpackPlugin } from 'clean-webpack-plugin';
+const CopyPlugin = require('copy-webpack-plugin');
 
-const outFolder = process.env.BUILD_PATH || "build";
-const distFolder = path.join(__dirname, outFolder);
+import { withComponentControls } from '@component-controls/react-router-integration/webpack-build';
+
+const publicFolder = process.env.PUBLIC_PATH || 'public';
+const publicPath = path.join(__dirname, publicFolder);
+const distFolder = process.env.BUILD_PATH || 'build';
+const distPath = path.join(__dirname, distFolder);
 
 const config: webpack.Configuration = {
-  mode: "production",
-  entry: "./src/index.tsx",
+  mode: 'production',
+  entry: './src/index.tsx',
   output: {
-    path: distFolder,
-    filename: "[name].[contenthash].js",
-    publicPath: "",
+    path: distPath,
+    filename: '[name].[contenthash].js',
+    publicPath: '',
   },
   module: {
     rules: [
@@ -23,12 +25,12 @@ const config: webpack.Configuration = {
         test: /\.(ts|js)x?$/i,
         include: /src/,
         use: {
-          loader: "babel-loader",
+          loader: 'babel-loader',
           options: {
             presets: [
-              "@babel/preset-env",
-              "@babel/preset-react",
-              "@babel/preset-typescript",
+              '@babel/preset-env',
+              '@babel/preset-react',
+              '@babel/preset-typescript',
             ],
           },
         },
@@ -36,28 +38,25 @@ const config: webpack.Configuration = {
     ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"],
+    extensions: ['.tsx', '.ts', '.js'],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/index.html",
+      template: 'src/index.html',
     }),
-    new ForkTsCheckerWebpackPlugin({
-      async: false,
-    }),
-    new ESLintPlugin({
-      extensions: ["js", "jsx", "ts", "tsx"],
+    new CopyPlugin({
+      patterns: [{ from: publicFolder }],
     }),
     new CleanWebpackPlugin(),
   ],
   performance: {
-    maxEntrypointSize: 2000000,
-    maxAssetSize: 2000000,
+    maxEntrypointSize: 8000000,
+    maxAssetSize: 8000000,
   },
 };
 
 module.exports = withComponentControls({
   config,
   development: false,
-  options: { distFolder },
+  options: { configPath: '.config', distFolder: publicPath },
 });
