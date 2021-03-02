@@ -1,35 +1,35 @@
-import path from 'path';
-import webpack from 'webpack';
-import webpackDevServer from 'webpack-dev-server';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import { withComponentControls } from '@component-controls/react-router-integration/webpack-build';
+import path from "path";
+import webpack from "webpack";
+import webpackDevServer from "webpack-dev-server";
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import { withComponentControls } from "@component-controls/react-router-integration/webpack-build";
 
-const publicFolder = process.env.PUBLIC_PATH || 'public';
+const publicFolder = process.env.PUBLIC_PATH || "public";
 const publicPath = path.join(__dirname, publicFolder);
-const distFolder = process.env.BUILD_PATH || 'build';
+const distFolder = process.env.BUILD_PATH || "build";
 const distPath = path.join(__dirname, distFolder);
 
 const config: webpack.Configuration & {
   devServer: webpackDevServer.Configuration;
 } = {
-  mode: 'development',
+  mode: "development",
   output: {
     path: distPath,
-    publicPath: '/',
+    publicPath: "/",
   },
-  entry: './src/index.tsx',
+  entry: "./src/index.tsx",
   module: {
     rules: [
       {
         test: /\.(ts|js)x?$/i,
         include: /src/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
             presets: [
-              '@babel/preset-env',
-              '@babel/preset-react',
-              '@babel/preset-typescript',
+              "@babel/preset-env",
+              "@babel/preset-react",
+              "@babel/preset-typescript",
             ],
           },
         },
@@ -37,15 +37,15 @@ const config: webpack.Configuration & {
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: [".tsx", ".ts", ".js"],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
+      template: "src/index.html",
     }),
     new webpack.HotModuleReplacementPlugin(),
   ],
-  devtool: 'inline-source-map',
+  devtool: "inline-source-map",
   devServer: {
     contentBase: publicPath,
     historyApiFallback: true,
@@ -55,8 +55,8 @@ const config: webpack.Configuration & {
   },
 };
 
-module.exports = withComponentControls({
+export default withComponentControls({
   config,
   development: true,
-  options: { configPath: '.config', distFolder: publicPath },
+  options: { configPath: ".config", distFolder: publicPath },
 });
