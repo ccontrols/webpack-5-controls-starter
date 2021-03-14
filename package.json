@@ -8,7 +8,7 @@
     "build": "rm -rf public && webpack --config webpack.prod.config.ts --progress"
   },
   "dependencies": {
-    "@component-controls/react-router-integration": "^3.4.1",
+    "@component-controls/react-router-integration": "^3.4.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
