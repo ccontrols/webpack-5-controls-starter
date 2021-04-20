@@ -10,8 +10,8 @@
     "test": "yarn jest"
   },
   "dependencies": {
-    "@component-controls/cc-cli": "^3.5.2",
-    "@component-controls/react-router-integration": "^3.5.2",
+    "@component-controls/cc-cli": "^3.7.0",
+    "@component-controls/react-router-integration": "^3.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
