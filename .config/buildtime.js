@@ -1,7 +1,7 @@
 const { defaultBuildConfig } = require("@component-controls/core");
 
 module.exports = {
-  stories: ["../src/docs/*.@(mdx|tsx)"],
+  stories: ["../src/docs/*.mdx", "../src/components/**/*.docs.tsx"],
   pages: {
     story: {
       tabs: {
@@ -10,5 +10,5 @@ module.exports = {
       },
     },
   },
-  siteUrl: `https://gatsby-controls-starter.netlify.app`,
+  siteUrl: `https://webpack-5-controls-starter.netlify.app`,
 };
