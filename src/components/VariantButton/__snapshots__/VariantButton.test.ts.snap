@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`VariantButton accent 1`] = `
+exports[`VariantButton accent snapshot 1`] = `
 <DocumentFragment>
   <button
     style="color: rgb(242, 242, 242); background-color: rgb(155, 81, 224); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
@@ -15,7 +15,7 @@ exports[`VariantButton accent 1`] = `
 </DocumentFragment>
 `;
 
-exports[`VariantButton disabled 1`] = `
+exports[`VariantButton disabled snapshot 1`] = `
 <DocumentFragment>
   <button
     disabled=""
@@ -31,7 +31,7 @@ exports[`VariantButton disabled 1`] = `
 </DocumentFragment>
 `;
 
-exports[`VariantButton error 1`] = `
+exports[`VariantButton error snapshot 1`] = `
 <DocumentFragment>
   <button
     style="color: rgb(242, 242, 242); background-color: rgb(235, 87, 87); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
@@ -46,7 +46,7 @@ exports[`VariantButton error 1`] = `
 </DocumentFragment>
 `;
 
-exports[`VariantButton overview 1`] = `
+exports[`VariantButton overview snapshot 1`] = `
 <DocumentFragment>
   <button
     style="color: rgb(242, 242, 242); background-color: rgb(47, 128, 237); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
@@ -80,7 +80,7 @@ exports[`VariantButton overview 1`] = `
 </DocumentFragment>
 `;
 
-exports[`VariantButton primary 1`] = `
+exports[`VariantButton primary snapshot 1`] = `
 <DocumentFragment>
   <button
     style="color: rgb(242, 242, 242); background-color: rgb(47, 128, 237); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
@@ -95,7 +95,7 @@ exports[`VariantButton primary 1`] = `
 </DocumentFragment>
 `;
 
-exports[`VariantButton success 1`] = `
+exports[`VariantButton success snapshot 1`] = `
 <DocumentFragment>
   <button
     style="color: rgb(242, 242, 242); background-color: rgb(33, 150, 83); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
@@ -110,7 +110,7 @@ exports[`VariantButton success 1`] = `
 </DocumentFragment>
 `;
 
-exports[`VariantButton warning 1`] = `
+exports[`VariantButton warning snapshot 1`] = `
 <DocumentFragment>
   <button
     style="color: rgb(242, 242, 242); background-color: rgb(235, 87, 87); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
