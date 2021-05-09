@@ -1,24 +1,24 @@
 export default {
   overview: {
     "0": {
-      text: "Destiny Funk",
-      icon: "Daniella Von"
+      text: "Miss Rubye Bartoletti",
+      icon: "Kevin Beahan"
     },
     "1": {
-      text: "Terrence Wyman",
-      icon: "Mazie Sawayn"
+      text: "Mabel Dach",
+      icon: "Tracy Schneider"
     },
     "2": {
-      text: "Ilene Swift",
-      icon: "Alanna Koepp"
+      text: "Brett Huels",
+      icon: "Matteo Wuckert"
     },
     "3": {
-      text: "Lukas Murazik",
-      icon: "Cassie Kerluke"
+      text: "Nettie Renner",
+      icon: "Dario Flatley"
     },
     "4": {
-      text: "Mckenzie Hauck",
-      icon: "Mr. Micah Hagenes"
+      text: "Edwin Prohaska",
+      icon: "Ms. Jessika Stiedemann"
     }
   }
 };
