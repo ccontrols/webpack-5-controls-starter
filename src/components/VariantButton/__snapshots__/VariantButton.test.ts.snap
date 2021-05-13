@@ -71,7 +71,7 @@ exports[`VariantButton overview 2 snapshot 1`] = `
     >
       <svg
         aria-hidden="true"
-        class="octicon octicon-arrow-down"
+        class="octicon"
         fill="currentColor"
         height="16"
         role="img"
@@ -105,7 +105,7 @@ exports[`VariantButton overview 3 snapshot 1`] = `
     >
       <svg
         aria-hidden="true"
-        class="octicon octicon-arrow-down"
+        class="octicon"
         fill="currentColor"
         height="16"
         role="img"
@@ -139,7 +139,7 @@ exports[`VariantButton overview 4 snapshot 1`] = `
     >
       <svg
         aria-hidden="true"
-        class="octicon octicon-arrow-right"
+        class="octicon"
         fill="currentColor"
         height="16"
         role="img"
@@ -173,7 +173,7 @@ exports[`VariantButton overview 5 snapshot 1`] = `
     >
       <svg
         aria-hidden="true"
-        class="octicon octicon-arrow-up"
+        class="octicon"
         fill="currentColor"
         height="16"
         role="img"
