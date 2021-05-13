@@ -6,14 +6,15 @@
   "scripts": {
     "start": "webpack serve --config webpack.dev.config.ts --progress",
     "build": "rm -rf public && webpack --config webpack.prod.config.ts --progress",
-    "test:create": "cc-cli -g doc -f ts -w -d 5",
+    "test:create": "cc-cli -g doc -w -d 5 -s 1122334455",
     "test": "yarn jest"
   },
   "dependencies": {
-    "@component-controls/cc-cli": "^3.10.2",
-    "@component-controls/react-router-integration": "^3.10.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "@component-controls/cc-cli": "^3.12.0",
+    "@component-controls/react-router-integration": "^3.12.0",
+    "@primer/octicons-react": "^13.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

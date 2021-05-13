@@ -1,24 +1,27 @@
 export default {
   overview: {
-    "0": {
-      text: "Miss Rubye Bartoletti",
-      icon: "Kevin Beahan"
-    },
     "1": {
-      text: "Mabel Dach",
-      icon: "Tracy Schneider"
+      text: "Cecelia Langosh",
+      variant: "success",
+      icon: "none"
     },
     "2": {
-      text: "Brett Huels",
-      icon: "Matteo Wuckert"
+      text: "Jolie Beahan Sr.",
+      variant: "disabled",
+      icon: "down-arrow"
     },
     "3": {
-      text: "Nettie Renner",
-      icon: "Dario Flatley"
+      text: "Kane Ortiz",
+      variant: "warning"
     },
     "4": {
-      text: "Edwin Prohaska",
-      icon: "Ms. Jessika Stiedemann"
+      text: "Ronny Spinka",
+      variant: "success",
+      icon: "right-arrow"
+    },
+    "5": {
+      text: "Jayce Schaden",
+      icon: "up-arrow"
     }
   }
 };

@@ -46,21 +46,6 @@ exports[`VariantButton error snapshot 1`] = `
 </DocumentFragment>
 `;
 
-exports[`VariantButton overview 0 snapshot 1`] = `
-<DocumentFragment>
-  <button
-    style="color: rgb(242, 242, 242); background-color: rgb(47, 128, 237); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
-  >
-    <div
-      data-testid="label"
-      style="padding: 5px 10px;"
-    >
-      Miss Rubye Bartoletti
-    </div>
-  </button>
-</DocumentFragment>
-`;
-
 exports[`VariantButton overview 1 snapshot 1`] = `
 <DocumentFragment>
   <button
@@ -70,7 +55,7 @@ exports[`VariantButton overview 1 snapshot 1`] = `
       data-testid="label"
       style="padding: 5px 10px;"
     >
-      Mabel Dach
+      Cecelia Langosh
     </div>
   </button>
 </DocumentFragment>
@@ -82,10 +67,29 @@ exports[`VariantButton overview 2 snapshot 1`] = `
     style="color: rgb(242, 242, 242); background-color: rgb(47, 128, 237); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
   >
     <div
+      style="display: flex; align-items: center;"
+    >
+      <svg
+        aria-hidden="true"
+        class="octicon octicon-arrow-down"
+        fill="currentColor"
+        height="16"
+        role="img"
+        style="display: inline-block; user-select: none; vertical-align: text-bottom;"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <path
+          d="M13.03 8.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.47 9.28a.75.75 0 011.06-1.06l2.97 2.97V3.75a.75.75 0 011.5 0v7.44l2.97-2.97a.75.75 0 011.06 0z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
       data-testid="label"
       style="padding: 5px 10px;"
     >
-      Brett Huels
+      Jolie Beahan Sr.
     </div>
   </button>
 </DocumentFragment>
@@ -97,10 +101,29 @@ exports[`VariantButton overview 3 snapshot 1`] = `
     style="color: rgb(242, 242, 242); background-color: rgb(47, 128, 237); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
   >
     <div
+      style="display: flex; align-items: center;"
+    >
+      <svg
+        aria-hidden="true"
+        class="octicon octicon-arrow-down"
+        fill="currentColor"
+        height="16"
+        role="img"
+        style="display: inline-block; user-select: none; vertical-align: text-bottom;"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <path
+          d="M13.03 8.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.47 9.28a.75.75 0 011.06-1.06l2.97 2.97V3.75a.75.75 0 011.5 0v7.44l2.97-2.97a.75.75 0 011.06 0z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
       data-testid="label"
       style="padding: 5px 10px;"
     >
-      Nettie Renner
+      Kane Ortiz
     </div>
   </button>
 </DocumentFragment>
@@ -112,10 +135,63 @@ exports[`VariantButton overview 4 snapshot 1`] = `
     style="color: rgb(242, 242, 242); background-color: rgb(47, 128, 237); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
   >
     <div
+      style="display: flex; align-items: center;"
+    >
+      <svg
+        aria-hidden="true"
+        class="octicon octicon-arrow-right"
+        fill="currentColor"
+        height="16"
+        role="img"
+        style="display: inline-block; user-select: none; vertical-align: text-bottom;"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <path
+          d="M8.22 2.97a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06l2.97-2.97H3.75a.75.75 0 010-1.5h7.44L8.22 4.03a.75.75 0 010-1.06z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
       data-testid="label"
       style="padding: 5px 10px;"
     >
-      Edwin Prohaska
+      Ronny Spinka
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`VariantButton overview 5 snapshot 1`] = `
+<DocumentFragment>
+  <button
+    style="color: rgb(242, 242, 242); background-color: rgb(47, 128, 237); border-radius: 8px; border: 1px solid #000000; display: flex; align-items: center;"
+  >
+    <div
+      style="display: flex; align-items: center;"
+    >
+      <svg
+        aria-hidden="true"
+        class="octicon octicon-arrow-up"
+        fill="currentColor"
+        height="16"
+        role="img"
+        style="display: inline-block; user-select: none; vertical-align: text-bottom;"
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <path
+          d="M3.47 7.78a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0l4.25 4.25a.75.75 0 01-1.06 1.06L9 4.81v7.44a.75.75 0 01-1.5 0V4.81L4.53 7.78a.75.75 0 01-1.06 0z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      data-testid="label"
+      style="padding: 5px 10px;"
+    >
+      Jayce Schaden
     </div>
   </button>
 </DocumentFragment>
