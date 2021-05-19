@@ -1,12 +1,4 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
 import React, { FC } from 'react';
-import {
-  SearchIcon,
-  ArrowLeftIcon,
-  ArrowRightIcon,
-  ArrowDownIcon,
-  ArrowUpIcon,
-} from '@primer/octicons-react';
 
 type ButtonVariant =
   | 'primary'
@@ -15,14 +7,6 @@ type ButtonVariant =
   | 'success'
   | 'warning'
   | 'error';
-
-type ButtonIconType =
-  | 'none'
-  | 'search'
-  | 'left-arrow'
-  | 'right-arrow'
-  | 'down-arrow'
-  | 'up-arrow';
 
 const variant_colors: Record<ButtonVariant, string> = {
   primary: '#F2F2F2',
@@ -42,17 +26,9 @@ const variant_backgrounds: Record<ButtonVariant, string> = {
   error: '#EB5757',
 };
 
-const variant_icons: Record<ButtonIconType, typeof SearchIcon | undefined> = {
-  none: undefined,
-  search: SearchIcon,
-  'left-arrow': ArrowLeftIcon,
-  'right-arrow': ArrowRightIcon,
-  'down-arrow': ArrowDownIcon,
-  'up-arrow': ArrowUpIcon,
-};
 export interface VariantButtonProps {
   /**
-   *  button label of text
+   *  button label text
    */
   text: string;
 
@@ -60,11 +36,6 @@ export interface VariantButtonProps {
    *  variant kind
    */
   variant?: ButtonVariant;
-
-  /**
-   * icon kind
-   */
-  icon?: ButtonIconType;
 }
 
 /**
@@ -73,9 +44,7 @@ export interface VariantButtonProps {
 export const VariantButton: FC<VariantButtonProps> = ({
   text,
   variant = 'primary',
-  icon,
 }) => {
-  const Icon = icon ? variant_icons[icon] : undefined;
   return (
     <button
       disabled={variant === 'disabled' ? true : undefined}
@@ -88,16 +57,6 @@ export const VariantButton: FC<VariantButtonProps> = ({
         alignItems: 'center',
       }}
     >
-      {Icon && (
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-          }}
-        >
-          <Icon />
-        </div>
-      )}
       <div data-testid="label" style={{ padding: '5px 10px' }}>
         {text}
       </div>
