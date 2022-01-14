@@ -1260,7 +1260,7 @@
     react "^17.0.1"
     theme-ui "^0.8.4"
 
-"@component-controls/app@^4.0.3":
+"@component-controls/app@^4.0.2":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@component-controls/app/-/app-4.0.3.tgz#f485dcb773db77b86def070936614d63cbb88a80"
   integrity sha512-FDhnUFJbhMyLGcNVVn6Fi+P4uVCs+zs8CAp7Mdox1EoddDZIxXNAvs2kmN5uhXe7X4Nkz0t0Q77Unt2StW0dkg==
@@ -1289,20 +1289,20 @@
     react "^17.0.1"
     theme-ui "^0.8.4"
 
-"@component-controls/base-integration@^4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@component-controls/base-integration/-/base-integration-4.0.3.tgz#b78c5415170a973c8cc4809949c008f06a9f1ad0"
-  integrity sha512-/IByzfoAcquBtD3pPcfbGkqfH5dy5sRWVE3Cup3+7a0hHCqcMqlsLbQj01Yn9it4WTxYf9C6e7wEIC2f+HNK0g==
+"@component-controls/base-integration@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@component-controls/base-integration/-/base-integration-4.0.5.tgz#ccf9399ae2c37150252bbecda16284e0363b9b9a"
+  integrity sha512-owkBrq+jJPp6Zf6V3ASzfZV8H8N4KEs6Vjc6pM5qUtNUDQBsPKQFV/RGH0llepHqAxgU/to6HoXz5pmNCn/I/w==
   dependencies:
-    "@component-controls/app" "^4.0.3"
-    "@component-controls/core" "^4.0.3"
-    "@component-controls/logger" "^4.0.3"
-    "@component-controls/pages" "^4.0.3"
-    "@component-controls/routes" "^4.0.3"
-    "@component-controls/search-algolia" "^4.0.3"
-    "@component-controls/search-fusejs" "^4.0.3"
-    "@component-controls/store" "^4.0.3"
-    "@component-controls/webpack-compile" "^4.0.3"
+    "@component-controls/app" "^4.0.2"
+    "@component-controls/core" "^4.0.2"
+    "@component-controls/logger" "^4.0.2"
+    "@component-controls/pages" "^4.0.2"
+    "@component-controls/routes" "^4.0.2"
+    "@component-controls/search-algolia" "^4.0.2"
+    "@component-controls/search-fusejs" "^4.0.2"
+    "@component-controls/store" "^4.0.2"
+    "@component-controls/webpack-compile" "^4.0.2"
     "@types/react-router" "^5.1.11"
     "@types/react-router-dom" "^5.1.7"
     react "^17.0.1"
@@ -1391,7 +1391,7 @@
     typescript "^4.2.4"
     yargs "^15.3.1"
 
-"@component-controls/core@^4.0.3":
+"@component-controls/core@^4.0.2", "@component-controls/core@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@component-controls/core/-/core-4.0.3.tgz#0676e9d3ec5083813723aa50136cbd760d280b84"
   integrity sha512-1nc9JNDLVHSl5Jis70J1RsghXYWeTITzQXif3F53y+mHrNBvcyB2gvbZ8rxoVmMASiVYHBil8xdu2hlV7dvHqg==
@@ -1514,14 +1514,14 @@
     webpack "^5.24.3"
     webpack-sources "^2.2.0"
 
-"@component-controls/logger@^4.0.3":
+"@component-controls/logger@^4.0.2", "@component-controls/logger@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@component-controls/logger/-/logger-4.0.3.tgz#7100b42a83f33fc7a7fa5732ba46ad7e3cbf0842"
   integrity sha512-oQ9BHyPHNM8atViRUU+gesmZB8fIvodMW8WOMRdaWKNZi6ApH0q6J5b1SW70MoaSnqJPGAdec6OU8GEKP0L6yg==
   dependencies:
     chalk "^4.0.0"
 
-"@component-controls/pages@^4.0.3":
+"@component-controls/pages@^4.0.2":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@component-controls/pages/-/pages-4.0.3.tgz#2b71fe6861cb63e91f0de4ca0c16bdf971ca09aa"
   integrity sha512-9Vrij7yLPPyQkj3HxlhOlmZD09HPWO4lspFdgKxiZec+O687NyfD9vPWmu7PniM4lVtjCv5obwrej84NWCSACw==
@@ -1549,16 +1549,16 @@
     "@component-controls/core" "^4.0.3"
     react-docgen-typescript "^2.0.0"
 
-"@component-controls/react-router-integration@^4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@component-controls/react-router-integration/-/react-router-integration-4.0.3.tgz#b407d1cc2d6504da424bc218bcbee66dc0a72fcd"
-  integrity sha512-Flp782ARvrcOFu06X5h9QrAomYIJrpNEVwjCkAS5rSfal90DQglCWgyLbb9ie0877wlpu8liQHxRqIoYQzeuUQ==
+"@component-controls/react-router-integration@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@component-controls/react-router-integration/-/react-router-integration-4.0.5.tgz#bafe9692e892a54be7659ca005b92acdda3cf633"
+  integrity sha512-FputinJCqT2cKFZsi4K16e4CwPfWiLukDrKe0l7QXgoPtjAoNrEA/hTWKC4SOwd6SpB1i61NYIEk6z2tn5fL4A==
   dependencies:
-    "@component-controls/base-integration" "^4.0.3"
-    "@component-controls/pages" "^4.0.3"
-    "@component-controls/routes" "^4.0.3"
-    "@component-controls/search-algolia" "^4.0.3"
-    "@component-controls/search-fusejs" "^4.0.3"
+    "@component-controls/base-integration" "^4.0.5"
+    "@component-controls/pages" "^4.0.2"
+    "@component-controls/routes" "^4.0.2"
+    "@component-controls/search-algolia" "^4.0.2"
+    "@component-controls/search-fusejs" "^4.0.2"
     "@types/react-router" "^5.1.11"
     "@types/react-router-dom" "^5.1.7"
     react "^17.0.1"
@@ -1577,14 +1577,14 @@
     react "^17.0.1"
     react-dom "^17.0.1"
 
-"@component-controls/routes@^4.0.3":
+"@component-controls/routes@^4.0.2", "@component-controls/routes@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@component-controls/routes/-/routes-4.0.3.tgz#4d513e25d7c3983cc64103873495641b91be183f"
   integrity sha512-eIMoB+y+hBsntMHbQLnomYvH4Ecun0ZEG/NWLNJgj1eb26L4ebUCLCdy+K+ByHDOigbtmdqMkNHA3OSWfFYeBw==
   dependencies:
     "@component-controls/core" "^4.0.3"
 
-"@component-controls/search-algolia@^4.0.3":
+"@component-controls/search-algolia@^4.0.2", "@component-controls/search-algolia@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@component-controls/search-algolia/-/search-algolia-4.0.3.tgz#cbeaa684bac830fc33b6707ee61b2918dfcd7a79"
   integrity sha512-c0HOm8UiIx/yZSCPyiZyHOkPDH4ItpvOe4NyO6OWBsoBlr/TzD9hLYsUa5kUxQyTRoqhOyldgK6hhscT2PW1oQ==
@@ -1593,7 +1593,7 @@
     "@component-controls/logger" "^4.0.3"
     algoliasearch "^4.8.3"
 
-"@component-controls/search-fusejs@^4.0.3":
+"@component-controls/search-fusejs@^4.0.2":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@component-controls/search-fusejs/-/search-fusejs-4.0.3.tgz#3e929e67d1fee09f5bc493635c3861a5f0e18a5a"
   integrity sha512-ancSG5k3r91A/yE7rgYhnHsRpvuBEIZsPtqGIJhZFw9DcKL4Evs0GBO6P8g45OB93KBUPEolAOTqzBadeQYfGQ==
@@ -1602,7 +1602,7 @@
     "@component-controls/logger" "^4.0.3"
     fuse.js "^6.4.3"
 
-"@component-controls/store@^4.0.3":
+"@component-controls/store@^4.0.2", "@component-controls/store@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@component-controls/store/-/store-4.0.3.tgz#e6a5b2a20580894ac08a0725dcb6264b6a45ded2"
   integrity sha512-XyFeORPiRfypyVt8FTuvtbYZ5O9RS3vucNmFv7fblNtEOKWHwJ4wLXjdBKMiadSjV1s/WgDmjp/nnaqjzwn4MQ==
@@ -1641,7 +1641,7 @@
     react "^17.0.1"
     theme-ui "^0.8.4"
 
-"@component-controls/webpack-compile@^4.0.3":
+"@component-controls/webpack-compile@^4.0.2", "@component-controls/webpack-compile@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@component-controls/webpack-compile/-/webpack-compile-4.0.3.tgz#e07874d2fdfa0b02daa812ac2e98ed1f6e779229"
   integrity sha512-FE6Js7vieeVQ6l4vhFDvuAj95Lj/jP3oUZ1vOT5HikEejj34WLSb0TIVlyXRtKoAd+zXT809tO/ReeXrnFHB2g==
